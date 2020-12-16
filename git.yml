@@ -16,7 +16,7 @@
 
     - name: restart service
       service:
-        name: cron
+        name: crond
         state: restarted
 
     - name: install package
