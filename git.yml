@@ -20,6 +20,6 @@
         state: restarted
 
     - name: install package
-      apt:
+      yum:
         name: vsftpd
         state: present
