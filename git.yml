@@ -4,7 +4,7 @@
   gather_facts: false
   tasks:
 
-    - name: create file
+    - name: create new file
       file:
         path: /tmp/test
         state: directory
